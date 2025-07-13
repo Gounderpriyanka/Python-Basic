@@ -22,4 +22,12 @@ print(sat)
 
 
 set = [24 , 45, 67,89]
-newone = [ i for i in set if i > 25 print(i) ] 
+newone = [ i for i in set if i > 25  ]
+print(newone) 
+
+a = [i for i in words_list if "a" in i ]
+print(a)
+
+words_list.insert(2,["mango","stawberry"])
+print(words_list)
+print(words_list[2][0])
