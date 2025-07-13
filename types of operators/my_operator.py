@@ -1,0 +1,6 @@
+print("sum:",4+9)
+print("division:",14/2)
+print("multiply:",4*5)
+print("modules:",4%6)
+print("expontetion:",5**2)
+print("floor divsion:",4//2)
