@@ -1,0 +1,6 @@
+car = ("bmw","bugguti","scropio")
+print(len(car))
+print(type(car))
+num = ("3",)
+print(type(num))
+print(len(num))
