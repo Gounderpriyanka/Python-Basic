@@ -1,11 +1,13 @@
 car = ("bmw","bugguti","scropio")
 
 num = ("3",)
-#checking the type of tuple
+#to check the type of tuple
 print(type(num))
-#checking the lenght of tuple
+
+#to check the lenght og tuple
 print(len(num))
-color = ("red","blue","Orange","pink")
+color = ("red","yellow","blue","pink")
+
 print(color[1])#positive indexes
-print(color[-1])#negative indexing 
-print(color[1:4])
+print(color[-1])#negative indexes
+print(color[1:3])
