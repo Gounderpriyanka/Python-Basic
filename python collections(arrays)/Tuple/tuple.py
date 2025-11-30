@@ -13,6 +13,7 @@ print(color[-1])#negative indexes
 print(color[1:3]) #range indexing
 print(color[-2:]) #negative range indexing
 
+
 #cheking an item in tuple
 if "green" in color:
     print("yes")
@@ -26,6 +27,8 @@ for i in color:
 # color += new_color 
 # print(color) 
 
-#unpacking
+# unpacking
 color1, color2, color3, color4 = color
-print(color1, color2, color3, color4)
+print(color1, color2, color3)
+
+
