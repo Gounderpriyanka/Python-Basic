@@ -1,11 +1,11 @@
-phones = {
-    "tama" : 8656,
-    "Nima" : 6789,
-    "lila" : 8123,
-    "sila" : 7345
-}
+# phones = {
+#     "tama" : 8656,
+#     "Nima" : 6789,
+#     "lila" : 8123,
+#     "sila" : 7345
+# }
 
-print(phones)
+# print(phones)
 # print(type(phones))
 # print(len(phones))
 
@@ -16,7 +16,7 @@ print(phones)
 # print(phones.get("Nima"))
 
 #to print all the keys of the dict variable 
-# print(phones.keys())
+# print(phones.values())
 
 #to change the keys value directly  
 # phones["Nima"] = 1234
@@ -56,5 +56,22 @@ print(phones)
 #     print(phones[x])
 
 #to print all the keys and keys value line by line in the loop
-for i in phones.items():
-    print(i)
+# for i in phones.items():
+#     print(i)
+
+#nested dict 
+phones = {
+    "Area1" : {
+        "x" : 0,
+        "y" : 1,
+        "z" : 2
+    },
+    "Area2" : {
+        "a" : 3,
+        "b" : 4,
+        "c" :5
+    }
+}
+
+print(phones["Area1"]["y"])
+
