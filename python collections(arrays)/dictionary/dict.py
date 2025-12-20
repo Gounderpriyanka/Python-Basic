@@ -1,9 +1,10 @@
-# phones = {
-#     "tama" : 8656,
-#     "Nima" : 6789,
-#     "lila" : 8123,
-#     "sila" : 7345
-# }
+phoness = {
+    "tama" : 8656,
+    "Nima" : 6789,
+    "lila" : 8123,
+    "sila" : 7345
+}
+print(phoness["tama"])
 
 # print(phones)
 # print(type(phones))

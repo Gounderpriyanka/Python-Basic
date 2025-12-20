@@ -1,0 +1,4 @@
+num = [23,45,12,2,55,2]
+asscen = sorted(set(num))
+print(sorted(num))
+print(asscen[-2])
